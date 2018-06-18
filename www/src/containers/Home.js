@@ -1,9 +1,11 @@
 import React from "react";
-import CanvasComponent from "../components/CanvasComponent";
+import vlastizradca from "../assets/vlastizradca.jpg"
+import TextComponent from "../components/modules/vlastizradca";
 
 class Home extends React.Component {
   render() {
-    return <CanvasComponent />;
+    return <TextComponent image={vlastizradca} />;
+
   }
 }
 
